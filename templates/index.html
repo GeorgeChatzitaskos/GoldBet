@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arbitrage Opportunities</title>
+</head>
+<body>
+    <h1>Arbitrage Opportunities</h1>
+    <ul>
+        {% for opportunity in opportunities %}
+        <li>{{ opportunity.event }}: {{ opportunity.odds }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
